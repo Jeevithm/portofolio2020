@@ -4,13 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header-wrapper">  
         <header>
-            <h1>Jeevith<span class="dot">.</span></h1>
+           <div class="menu-logo">
+            <h1 class="logo">JM<span class="dot">.</span></h1>
+            <ul class="main-menu">
+                <li>
+                    <a href="#info">Cases</a>
+                </li>
+                <li>
+                    <a href="#cases">Om mig</a>
+                </li>
+                    <li>
+                    <a href="#contact">Kontakt</a>
+                </li>
+               
+            </ul>
+        </div>
+        <div class="home-wrapper">
+        <div class="home-main">
+                <h1>Velkommen til mit domæne</h1>
+                <h2> Hej mit navn er Jeevith, hyggeligt og møde dig!</h2>      
+        <div class="home-buttons">
+                 <a href="#info" class="button button1">Se Portofolio</a>
+        </div>
+
+                
+        </div>
+        
+    <div class="media">
+            <ul class="main-icon">
+                <li>
+                   <a href="https://www.facebook.com/jeevithmohanakumar/" target="_blank">  <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                </li>
+                <li>
+                   <a href="https://www.instagram.com/jeevith.m/?hl=da" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a> 
+                </li>
+                <li>
+                    <a href="https://dk.linkedin.com/in/jeevith-mohanakumar-369591198" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Jeevithm" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> </a>
+                </li>
+            </ul>        
+    </div>
+</div>
         </header>
-    </div>   
+    </div>  
+    <section id="info" class="main-info">
+     <h1>Hvad har jeg arbejdet med?</h1>
+    <div class="main-info-content">
+        <div class="first-img">
+            <img class="img-hover" src="images/bigdata-icon.JPG">
+            <img  src="images/play.png" class="play-btn"
+            onclick="playVideo('videos/bigdata.mp4')">
+        <h2>Forward Football Dashboard</h2>
+    </div>
+        <div class="first-img">
+            <a href="http://magnatek.dk/" target="_blank"><img class="img-hover"  src="images/magnatek-icon.png"> </a>
+            <h2>Magnatek: X-Ray</h2>
+        </div> 
+        <div class="first-img">
+            <img class="img-hover"src="images/eits.jpg">
+            <h2>Eye In The Sky</h2>
+
+        </div>
+    </div>
+ <div class="video-player" id="videoPlayer">
+     <video width="100%" controls  id="myVideo">
+         <source src="videos/bigdata.mp4" type="video/mp4">
+     </video>
+     <img src="images/close.png" class="close-btn" onclick="stopVideo()">
+ </div>
+     
+    </section>
+        <section id="cases" class="main-work">
+            <h2 class="main-work-header"> Om mig</h2>
+            <div class="main-work-about">
+                <img class="main-work-about-img" src="images/Jeevith.jpeg">  
+            <p>
+                Mit navn er Jeevith Mohanakumar og er 25 år gammel. Jeg er udannelse i professionsbachelor i Webudvikling fra Erhvervsakademiet Aarhus i Viby J. 
+                Jeg bor i Aarhus, men kommer oprindeligt fra Middelfart, hvor jeg er født og opvokset.
+             </p>   
+            </div>
+        </section>
+    
+    <section id="contact" class="main-contact">
+        <h1 class="main-contact-overskrift">Kontakt mig</h1>
+        
+    </section>
+    <script src="js/myVideo.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/vendor/three.r119.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/dist/vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+          el: ".header-wrapper",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          backgroundColor: 0x112743,
+          color1: 0xa76b00,
+          color2: 0x845500
+        })
+        </script>
 </body>
 </html>
