@@ -15,7 +15,7 @@ for (let item of anchorlinks) {
         e.preventDefault()
     })
 }
-
+/*
 //Go to the top Script
 //Get the button
 var mybutton = document.getElementById("myBtn");
@@ -36,3 +36,4 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+*/

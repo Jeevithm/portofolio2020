@@ -10,7 +10,7 @@
 <body>
     <div class="header-wrapper">  
         <header>
-           <div class="menu-logo">
+           <nav class="menu-logo">
             <h1 class="logo">JM<span class="dot">.</span></h1>
             <ul class="main-menu">
                 <li>
@@ -21,16 +21,16 @@
                 </li>
                     <li>
                     <a href="#contact">Kontakt</a>
-                </li>
-               
+                </li>         
             </ul>
-        </div>
+        </nav>
         <div class="home-wrapper">
         <div class="home-main">
-                <h1>Velkommen til mit domæne</h1>
-                <h2> Hej mit navn er Jeevith, hyggeligt og møde dig!</h2>      
+                <h1>Velkommen til mit univers!</h1>
+                <h2>Hej mit navn er Jeevith, hyggeligt og møde dig!</h2>     
+                <h3>Frontend Udvikler & Webdesigner</h3> 
         <div class="home-buttons">
-                 <a href="#info" class="button button1">Se Portofolio</a>
+                 <a href="#info" class="button button1">Se Portfolio</a>
         </div>
 
                 
@@ -56,7 +56,8 @@
         </header>
     </div>  
     <section id="info" class="main-info">
-     <h1>Hvad har jeg arbejdet med?</h1>
+        <h2>Portfolio</h2>
+     <h1>Tjek et par af mine værker</h1>
     <div class="main-info-content">
         <div class="first-img">
             <img class="img-hover" src="images/bigdata-icon.JPG">
@@ -70,8 +71,7 @@
         </div> 
         <div class="first-img">
             <img class="img-hover"src="images/eits.jpg">
-            <h2>Eye In The Sky</h2>
-
+            <h2>Eye In The Sky (In Progress)</h2>
         </div>
     </div>
  <div class="video-player" id="videoPlayer">
@@ -79,24 +79,59 @@
          <source src="videos/bigdata.mp4" type="video/mp4">
      </video>
      <img src="images/close.png" class="close-btn" onclick="stopVideo()">
- </div>
-     
+ </div>   
     </section>
         <section id="cases" class="main-work">
-            <h2 class="main-work-header"> Om mig</h2>
+            <h2 class="main-work-header">Om mig</h2>
             <div class="main-work-about">
                 <img class="main-work-about-img" src="images/Jeevith.jpeg">  
             <p>
                 Mit navn er Jeevith Mohanakumar og er 25 år gammel. Jeg er udannelse i professionsbachelor i Webudvikling fra Erhvervsakademiet Aarhus i Viby J. 
-                Jeg bor i Aarhus, men kommer oprindeligt fra Middelfart, hvor jeg er født og opvokset.
-             </p>   
-            </div>
+                Jeg bor i Aarhus, men kommer oprindeligt fra Middelfart, hvor jeg er født og opvokset. 
+                <a href="files/Cv-Jeevith-2020.pdf"  class="button button2" download>Download mit CV</a>
+            </p>   
+            </div>                
         </section>
-    
-    <section id="contact" class="main-contact">
-        <h1 class="main-contact-overskrift">Kontakt mig</h1>
-        
+    <section  class="main-contact">
+        <h1 class="main-contact-title">Kontakt mig</h1>
+        <div class="main-contact-wrapper">
+        <div class="main-contact-text">
+            <span class="main-contact-home"><i class="fa fa-home" aria-hidden="true"></i><h5>8230 Aarhus, Åbyhøj</h5></span>
+             <span  class="main-contact-envelope"><i class="fa fa-envelope-o" aria-hidden="true"></i><h5>Jeevithm@yahoo.dk</h5> </span> 
+  
+             <div class="footer-icon-wrapper">
+                <ul class="footer-icon">
+                    <li>
+                       <a href="https://www.facebook.com/jeevithmohanakumar/" target="_blank">  <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                    </li>
+                    <li>
+                       <a href="https://www.instagram.com/jeevith.m/?hl=da" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> </a> 
+                    </li>
+                    <li>
+                        <a href="https://dk.linkedin.com/in/jeevith-mohanakumar-369591198" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Jeevithm" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> </a>
+                    </li>
+                </ul>    
+            </div>
+            </div>
+        <div class="contact-form-wrapper">
+        <form class="contact-form" name="coantact" method="POST" data-netlify="true">
+            <div class="input-fields">
+              <input type="text" class="input" name="name"placeholder="Navn">
+              <input type="email" class="input" name="email"  placeholder="Email Adresse">
+              <input type="text" class="input" placeholder="Emne">
+            </div>
+            <div class="msg">
+              <textarea name="message" placeholder="Besked"></textarea>
+              <button  type="submit" class="btn">Send besked</button>
+            </div>
+        </form>   
+        </div>  
+        </div>
     </section>
+
     <script src="js/myVideo.js"></script>
     <script src="js/animation.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/tengbao/vanta@master/vendor/three.r119.min.js"></script>
