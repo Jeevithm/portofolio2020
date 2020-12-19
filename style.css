@@ -197,7 +197,7 @@ animation: fadeIn ease 5s;
 }
 
 .main-info{
-  height: 70vh;
+  height: 120vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -207,7 +207,7 @@ animation: fadeIn ease 5s;
 
 .main-info-content{
   display: flex;
-  margin-top: 80px;
+  margin-top: 230px;
   
 }
 
@@ -218,12 +218,14 @@ animation: fadeIn ease 5s;
 
 
 .main-info > h1{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+
   margin-top: 5px;
 }
 
 .main-info > h2 {
-  font-weight: lighter;
+  font-size: 2rem;
   margin-top: 50px;
 }
 
@@ -323,6 +325,7 @@ video:focus{
 
 .main-work-header{
   text-align: center;
+  font-size: 2rem;
   margin-top: 30px;
 }
 
@@ -337,6 +340,7 @@ video:focus{
   padding-top: 30px;
   color: white;
   margin: 10px auto 10px auto;
+  font-size: 2rem;
 
 }
 
