@@ -21,14 +21,16 @@ html {
   img {
     max-width: 100%;
     height: auto;
+
   }
 
 .logo{
-  padding: 0px 0 0 10px;
+  padding: 0px 0 0 20px;
   flex-grow: 1;
   color: white;
   margin: 0px 20px;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  text-decoration: none;
 
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -45,6 +47,7 @@ header{
   height: 100vh;
   width: 100%;
   backdrop-filter: opacity(40%);
+  
 }
 
 
@@ -114,20 +117,31 @@ header{
 }
 
 .main-menu{
-  margin-right: 100px;
+  margin-top: 20px;
+  margin-right: 70px;
 }
 
 .main-menu a {
   text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.4s ease;
+}
+
+.main-menu a:hover{
+ background-color: white;
+ color: black;
+ transition: 0.4s ease;
 }
 
 .main-menu > li { 
     list-style: none;
-    margin: 20px 30px;
+    margin: 25px 10px;
     display: inline-block;
     font-size: 18px;
     padding: 20px 20px;
-   
     color: white;
 }
 
@@ -197,7 +211,7 @@ animation: fadeIn ease 5s;
 }
 
 .main-info{
-  height: 120vh;
+  height: 80vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -207,7 +221,7 @@ animation: fadeIn ease 5s;
 
 .main-info-content{
   display: flex;
-  margin-top: 200px;
+  margin-top: 100px;
   
 }
 
@@ -225,7 +239,7 @@ animation: fadeIn ease 5s;
 }
 
 .main-info > h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 50px;
 }
 
@@ -295,7 +309,7 @@ video:focus{
 }
 
 .main-work{
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -307,7 +321,7 @@ video:focus{
 .main-work-about{
   display: flex;
   max-width: 120vh;
-  margin-top: 150px;
+  margin-top: 90px;
   justify-content: center;
 }
 
@@ -325,7 +339,7 @@ video:focus{
 
 .main-work-header{
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 50px;
 }
 
