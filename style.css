@@ -347,7 +347,7 @@ video:focus{
 }
 
 .footer-icon-wrapper{
-  margin-top: 160px;
+  margin-top: 140px;
   display: flex;
   align-items: flex-start;
 }
@@ -411,7 +411,6 @@ video:focus{
   font-weight: lighter;
   display: flex;
   align-items: center;
-  margin-right: 15px;
   font-size: 25px;
 }
 
@@ -422,9 +421,23 @@ video:focus{
   font-weight: lighter;
   display: flex;
   align-items: center;
-  margin-right: 15px;
-
 }
+
+.main-contact-phone{
+  margin-right: 15px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.main-contact-phone i{
+  margin-right: 15px;
+}
+
+
 
 .main-contact-text {
   margin-right: 200px;
