@@ -117,7 +117,7 @@ header{
 }
 
 .main-menu{
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 70px;
 }
 
@@ -330,7 +330,7 @@ video:focus{
 }
 
 .main-work-about-img{
-  height: 520px;
+  height: 510px;
   margin-right: 50px;
   border-radius: 8px;
 }
