@@ -97,7 +97,7 @@ header{
   border: 2px solid #e4b441;
   border-radius: 8px;
   text-transform: uppercase;
-  margin-top: 160px;
+  margin-top: 0px;
 }
 
 .button1:hover {
@@ -330,7 +330,7 @@ video:focus{
 }
 
 .main-work-about-img{
-  width: 30%;
+  height: 520px;
   margin-right: 50px;
   border-radius: 8px;
 }
