@@ -207,7 +207,7 @@ animation: fadeIn ease 5s;
 
 .main-info-content{
   display: flex;
-  margin-top: 230px;
+  margin-top: 200px;
   
 }
 
@@ -307,7 +307,7 @@ video:focus{
 .main-work-about{
   display: flex;
   max-width: 120vh;
-  margin-top: 100px;
+  margin-top: 150px;
   justify-content: center;
 }
 
@@ -326,7 +326,7 @@ video:focus{
 .main-work-header{
   text-align: center;
   font-size: 2rem;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .main-contact{
@@ -337,7 +337,7 @@ video:focus{
 }
 
 .main-contact-title{
-  padding-top: 30px;
+  padding-top: 40px;
   color: white;
   margin: 10px auto 10px auto;
   font-size: 2rem;
